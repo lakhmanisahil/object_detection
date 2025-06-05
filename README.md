@@ -17,12 +17,6 @@ cd object_detection
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-Note: If you plan to use GPU acceleration on Ubuntu 22.04 (CUDA 11.7 or newer), first install the appropriate torch/torchvision binaries:
-
-``pip install torch torchvision --index-url https://download.pytorch.org/whl/cu117``
-
-Then run:
-``pip install ultralytics opencv-python numpy<2.0``
 
 3. Running this script:
 - Ensure your webcam is plugged in and recognized (check ls /dev/video* on Linux or Device Manager on Windows).
